@@ -9,6 +9,6 @@ Característica: Registrar un usuario mediante usuario y contraseña
   Escenario: El analista garantiza que la respuesta del sistema sea correcta
     Dado que el analista loguea al usuario con los siguientes datos:
       | email              | password |
-      | fernanda@gmail.com | abc456   |
+      | hernadez@gmail.com | ghi56    |
     Cuando el analista envie los datos del usuario mediante el 'login'
     Entonces deberia ver como respuesta un codigo 404
