@@ -3,6 +3,7 @@ package com.certification.reqres.endpoitns;
 public class ApiEndpoints {
     private static final String ADDUSER = "users";
     private static final String GETUSER = "users";
+    private static final String PUTUSER = "users";
 
     public static String obtenerEndpoint(String endpoint){
         switch (endpoint){
@@ -10,6 +11,8 @@ public class ApiEndpoints {
                 return ApiEndpoints.ADDUSER;
             case "getUser":
                 return ApiEndpoints.GETUSER;
+            case "putUser":
+                return ApiEndpoints.PUTUSER;
             default:
                 break;
         }
